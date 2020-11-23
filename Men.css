@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    
+    background-color: #ccc;
+    color: #fff;
+}
+#Men, #Women, #Pcs, #Electronics, #Beauty, #Phones {
+    width: 98%;
+    margin-left: 1%;
+    min-height: 1000px;
+    border: 1px solid #eee;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+#product{
+    width: 410px;
+    height: 280px;
+    float: left;
+    margin: 2.5px;
+    position: relative;
+    border: 1px solid rgba(31, 180, 11, 0.411);
+}
+
+#product div:first-of-type{
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+    border: 1px solid rgba(161, 138, 138, 0.411);
+}
+#product div img{
+    width: 100%;
+    height: 100%;
+}
+#product div:nth-child(2){
+    width: 100%;
+    height: 30%;
+    border: 1px solid rgba(161, 138, 138, 0.411);
+    padding: 5px;
+}
+#product div:nth-child(2) button{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+.through{
+    text-decoration: line-through;
+}
+#other{
+    position: relative;
+    font-size: 18px;
+    font-family: sans-serif;
+    width: 35%;
+    height: 94vh;
+    margin-left: 10%;
+    margin-top: 3vh;
+   
+}
+#other div:first-of-type{
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+    border: 0.5px solid rgba(86, 207, 30, 0.411);
+}
+#other div:nth-child(2){
+    width: 100%;
+    height: 30%;
+    border: 0.5px solid #da121269;
+    padding: 17px;
+}
+#other div img{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    position:relative;
+    
+    width:400px;
+    height:80vh;
+
+}
+.main div {
+    width: 100%;
+    height: 85%;
+    overflow: hidden;
+    position: relative;
+}
+.main div img{
+    width: 100%;
+    height: 100%;
+}
+.main .main2{
+    width:100%;
+    height: 15%;
+    overflow:hideen;
+    position: relative;
+ 
+}
+.main .main2 div{
+    width:25%;
+    height: 13vh;
+    float:left;
+    margin-left: 7%;
+
+    
+}
+.main .main2 div img{
+    width:100%;
+    height:100%;
+    cursor:pointer;
+    padding: 10px;
+}
